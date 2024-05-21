@@ -32,7 +32,7 @@ struct NewPasswordView: View {
                 }
                 .padding(.bottom, 0)
                 
-                Text("Bienvenido/a ¡Cambiemos tu contraseña! Por favor, introduce una nueva contraseña y repítela para confirmarla")
+                Text("Bienvenido/a ¡Cambiemos tu contraseña!Por favor, introduce una nueva contraseña y repítela para confirmarla")
                     .font(.body)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.leading)

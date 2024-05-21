@@ -71,8 +71,9 @@ struct LoginView: View {
                     .foregroundColor(Color.white)
                     
                     
-                    //TODO: signInViewModel.login(email: email, password: password)
-                    NavigationLink(destination: NewPasswordView()) {
+                    Button(action: {
+                        signInViewModel.login(email: email, password: password)
+                    }) {
                         Text("Iniciar sesión")
                             .font(.body)
                             .fontWeight(.bold)

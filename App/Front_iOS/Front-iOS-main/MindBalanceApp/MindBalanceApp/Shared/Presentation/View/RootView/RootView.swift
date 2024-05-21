@@ -26,7 +26,7 @@ struct RootView: View {
                   NewPasswordView()
                 }
                 
-            case .error(error: let errorString):
+            case .error(error: _):
                 withAnimation {
                    ErrorView()
                     
