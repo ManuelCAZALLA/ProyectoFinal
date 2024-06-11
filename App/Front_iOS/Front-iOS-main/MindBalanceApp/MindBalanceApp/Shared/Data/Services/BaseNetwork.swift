@@ -30,7 +30,6 @@ struct BaseNetwork {
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         
-        
         request.addValue(apiKey, forHTTPHeaderField: "MindBalance-ApiKey")
         request.addValue(authorization, forHTTPHeaderField: "Authorization")
         
