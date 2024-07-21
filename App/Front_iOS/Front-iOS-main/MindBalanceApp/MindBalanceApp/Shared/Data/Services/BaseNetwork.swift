@@ -12,7 +12,6 @@ struct BaseNetwork {
         let apiUrl = "http://127.0.0.1:8080/api/v1/auth/signin"
         let apiKey = " 55618b9b-4447-4cde-bf22-42f62f01e6cd"
         
-        
         let credentials = "\(email):\(password)"
         
         guard let data = credentials.data(using: .utf8) else {
