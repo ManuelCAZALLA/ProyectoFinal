@@ -11,6 +11,4 @@ final class RootViewModel: ObservableObject {
     
     @Published var status = Status.none
     var islogged: Bool = false
-    
-    
 }
