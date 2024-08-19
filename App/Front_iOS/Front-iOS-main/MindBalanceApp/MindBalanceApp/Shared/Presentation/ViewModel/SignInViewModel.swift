@@ -45,5 +45,4 @@ class SignInViewModel: ObservableObject {
             }
             .store(in: &suscriptors)
     }
-    
 }
